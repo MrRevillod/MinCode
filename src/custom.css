@@ -1,0 +1,53 @@
+#workbench\.parts\.sidebar>div.composite.title {
+
+    display: flex !important;
+    justify-content: space-between !important;
+    width: 100% !important;
+}
+
+#workbench\.parts\.sidebar>div.composite.title>div.global-actions {
+    display: none !important;
+}
+
+#workbench\.view\.explorer>div>div>div.monaco-scrollable-element>div.split-view-container>div>div>div.pane-body>div>div>div {
+    margin-top: 0.7rem;
+}
+
+.window-controls {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 1rem;
+    gap: 0.6rem;
+
+    padding-top: 12px;
+    padding-left: 10px;
+}
+
+.window-control {
+    height: 0.75rem;
+    width: 0.75rem;
+    border-radius: 100%;
+    border: none;
+}
+
+.window-control:hover {
+    cursor: pointer;
+}
+
+#workbench\.parts\.editor>div.content.empty>div>div>div>div>div.monaco-scrollable-element>div.split-view-container>div>div>div.editor-group-watermark>div.letterpress {
+    display: none;
+}
+
+/* Remove the vscode logo */
+
+#workbench\.parts\.editor>div.content.empty>div>div>div>div>div.monaco-scrollable-element>div.split-view-container>div>div>div.editor-group-watermark {
+    max-width: 100%;
+    width: 100%;
+}
+
+/* Add little padding to editor tabs */
+
+.tab-label {
+    padding: 0rem 0.2rem;
+}
