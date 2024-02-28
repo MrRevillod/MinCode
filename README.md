@@ -3,6 +3,16 @@
 
 Configuración minimalista para Visual Studio Code. Se excluye la mayor parte de distracciones y se enfoca en la escritura de código.
 
+## Instalación
+
+```bash
+git clone https://github.com/MrRevillod/MinCode.git
+```
+
+```bash
+cd MinCode && chmod +x ./install.sh && ./install.sh
+```
+
 ## Extensiones Utilizadas (UI)
 
 - <a href="https://marketplace.visualstudio.com/items?itemName=drcika.apc-extension"> APC Customize UI++ </a>  
